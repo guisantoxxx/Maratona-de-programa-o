@@ -4,7 +4,7 @@
 #include<stdlib.h>  
 
 
-int comparacao(const void* a, const void* b) {
+int comparacao(const void* a, const void* b) { //funcao de comparacao para a funcao de ordenacao qsort
     int num1 = *(int*)a;
     int num2 = *(int*)b;
     
@@ -41,7 +41,7 @@ int main() {
         int maior_subgrupo = 0;
         int contador = 1;
 
-        for(int j = 0; j < n; j++) {
+        for(int j = 0; j < n; j++) { //laco que encontra o maior subgrupo no array
 
             if(numeros[j + 1] - numeros[j] <= k && j != n - 1) {
                 contador++;
