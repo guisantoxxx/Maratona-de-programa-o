@@ -20,6 +20,7 @@ int main() {
         }
         else {
             for(int i = 0; i < 10; i++) {
+                
                 abrevicao[i] = '\0';
             }
 
