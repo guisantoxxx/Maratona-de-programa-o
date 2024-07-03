@@ -20,7 +20,5 @@ int main() {
 
     printf("%d\n", qtd_resolvidos);
 
-    
-
     return 0;
 }
