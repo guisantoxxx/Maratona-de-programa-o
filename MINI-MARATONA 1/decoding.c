@@ -24,8 +24,8 @@ int main() {
 
   qsort(coinsValues, numberOfCoins, sizeof(int), compare);
   
-  for(int i = numberOfCoins - 1; resultSum <= half; i--) {
-    resultSum += coinsValues[i];
+  for(int i = numberOfCoins - 1; resultSum < half; i--) {
+    resu += coinsValues[i];
     cont++;
   }
 
