@@ -8,7 +8,7 @@ int compare(const void *a, const void *b) {
 }
  
 int main() {
- 
+
   int numberOfCoins;
   int coinsValues[100];
   float totalSum = 0;
