@@ -1,6 +1,6 @@
 //https://codeforces.com/problemset/problem/96/A
 
-#include <Stdio.h>
+#include <stdio.h>
 
 int main() {
 
